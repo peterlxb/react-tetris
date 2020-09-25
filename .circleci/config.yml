@@ -5,3 +5,6 @@ workflows:
   node-tests:
     jobs:
       - node/test
+notify:
+    webhooks:
+        - url: https://hooks.glip.com/webhook/e0acf9ec-40ca-4367-86e1-a07146d964a0
